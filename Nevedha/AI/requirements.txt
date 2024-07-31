@@ -1,0 +1,7 @@
+torch
+torchvision
+torchaudio
+opencv-python-headless
+yolov5
+matplotlib
+scikit-learn
