@@ -1,25 +1,39 @@
-# CountingChallenge
 
-## Task definiton
-* Count the number of items in the image and overlay masks for the same.
-* Accuracy should be > 95%
+## Description
 
-## Task list
-1) Achieve the task definition using any Non-AI techniques (ex. OpenCV, etc)
-2) Achieve the task definition using any AI techniques
 
-## Note
-* All tasks from the Task List are expected to be completed
-* Requirement files are expected to be added.
-* Colab/Kaggle notebooks can be used, but the ```ipynb``` file must be added.
-* The dataset is available [here](https://drive.google.com/drive/folders/1TuM4CgGI3WBqOHNFjuzjaEzLOH5Yw43_?usp=sharing).
-* Create a root folder with your name in the git.
-* There has to be 2 folders viz. "AI" and "Non_AI" containing solutions to the respectiv tasks within the above root folder.
+## Non-AI Approach Requirements:
+•	Google Collab Setup
+•	Ensure that you have a Google account to access Google Collab.
+•	Google Drive should be organized with datasets correctly placed in the drive paths.
 
-## Steps to submit the solutions
-* Fork this repository.
-* Push the solution into the folders sepecified.
-* Raise a PR with your name as per resume to this repository from your forked repository.
-* Cleanup unwanted files by putting the path in the .gitignore.
-* No need of including the data files into GIT.
-* Write or provide the training method used for AI training purpose if any. 
+## Libraries and Dependencies
+
+•	OpenCV: An open-source computer vision and machine learning software library.
+•	Install using! pip install OpenCV-python-headless.
+•	NumPy: A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices.
+•	Install using! pip install numpy.
+•	Matplotlib: A plotting library for the Python programming language and its numerical mathematics extension NumPy.
+•	Install using! pip install matplotlib.
+
+## Dataset Preparation
+•	Ensure the datasets are uploaded to Google Drive and accessible via the given paths.
+•	Images should be in common formats like .jpg or .png.
+•	Google Drive Mounting
+•	Mount Google Drive to Collab to access the datasets using drive. Mount('/content/drive').
+
+## Code Execution Steps
+•	Import necessary libraries (OpenCV, NumPy, Matplotlib).
+•	Define paths to datasets.
+•	Implement image processing functions:
+•	Load and preprocess the images (grayscale conversion, blurring, edge detection).
+•	Find contours and count the number of items.
+•	Draw contours on images and display them.
+•	Iterate over images in the datasets and process each image.
+
+## Output
+
+![output_2](https://github.com/user-attachments/assets/d8f144c9-9265-496d-b83f-0ed8d55c2f3d)
+
+
+
